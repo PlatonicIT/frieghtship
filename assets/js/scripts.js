@@ -23,9 +23,7 @@
             userIdErr.fadeOut();
             loginErr.fadeOut();
         } else {
-            userId.addClass('inputError');
-            userIdErr.fadeIn();
-            userIdErr.text('Please enter your username.');
+            loginErr.fadeOut();
         }
     });
 
@@ -37,9 +35,7 @@
             passErr.fadeOut();
             loginErr.fadeOut();
         } else {
-            pass.addClass('inputError');
-            passErr.fadeIn();
-            passErr.text('Please enter your password.');
+            loginErr.fadeOut();
         }
     });
 
