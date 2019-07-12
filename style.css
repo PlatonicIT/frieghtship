@@ -142,10 +142,37 @@ img {
     font-size: 90%;
 }
 
+.login-form .text-danger {
+    color: #bf0618!important;
+}
+
 .login-form input.inputError {
     border: 1px solid #c54747;
     box-shadow: 0 3px 6px rgba(185, 65, 65, 0.34);
     color: red;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    body {
+        font-size: 16px;
+    }
+    
+    .login-page > div.container {
+        padding-left: 70px;
+    }
+    
+    .login-form > h4 {
+        font-size: 17px;
+    }
+    
+    .login-form input {
+        padding: 10px;
+    }
+
+    .login-form button[type=submit] {
+        padding: 8px 35px;
+        font-size: 17px;
+    }
 }
 
 @media only screen and (max-width: 992px) {
