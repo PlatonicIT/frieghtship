@@ -111,12 +111,22 @@ img {
     color: #fff;
     padding: 10px 38px;
     font-size: 18px;
+    transition: all 0.3s;
+}
+
+.login-form button[type=submit]:hover {
+    background-color: #32774d;
 }
 
 .login-form .forgot-pass {
     display: inline-block;
     color: #C5C5C5;
     margin-top: 25px;
+    transition: all 0.3s;
+}
+
+.login-form .forgot-pass:hover {
+    color: #fff;
 }
 
 .login-form > h4 {
